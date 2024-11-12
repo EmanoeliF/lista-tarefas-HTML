@@ -1,0 +1,41 @@
+body {
+    background-color: #F2F2F2 ;
+}
+.content-center {
+  width: 100%;
+  max-width: 300px;  
+  margin: auto;  
+  padding: 20px;
+ background-color:#FFF;
+ border-radius: 15px;
+}
+.content-center .text-center {
+  text-align: center;
+}
+.todo {
+    list-style: none;
+}
+.todo li {
+  padding: 10px;
+  border-bottom: #ccc 1s solid;
+}
+.todo li input {
+  width: initial;
+  margin-right: 10px;
+}
+.todo li.complete {
+  text-decoration: line-through;
+  color: #999;
+  cursor: not-allowed;
+}
+.todo button {
+  width: initial;
+  color: #fff;
+  background-color: red;
+  float: right;
+  min-width: 30px;
+}
+#new-task {
+  width: 100%;
+  padding: 10px;
+}
